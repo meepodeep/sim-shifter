@@ -11,6 +11,7 @@ void setup() {
   pinMode(buttonPin[4], INPUT_PULLUP);
   pinMode(buttonPin[5], INPUT_PULLUP);
   Keyboard.begin();
+  
 }
 
 void loop() {
@@ -19,13 +20,13 @@ void loop() {
     // If the button is pressed (goes from HIGH to LOW)
   for(int i = 0; i <8; i++){
     if (buttonState[i] == LOW && previousButtonState[i] == HIGH) {
-      Keyboard.press('F' + String(i+12));           
-      delay(50);                      
+      Keyboard.press(KEY_F1 + (i + 12));          
+      delay(50);                       
     }
 
   // If the button is released (goes from LOW to HIGH)
     if (buttonState[i] == HIGH && previousButtonState[i] == LOW) {
-    Keyboard.release('F' + String(i+12));
+    Keyboard.release(KEY_F1 + (i + 12));
     delay(50);
     }
 
