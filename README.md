@@ -2,6 +2,8 @@
 ## A shifter for sim racing games that uses limit switches for gear detection
 # Why does this exist
 I have been thinking of making a sim shifter for a few months now and have never gotten around to it, I love sim racing and drifting, but I only have the paddle shifters on my wheel, which suck for drifting, so I needed a shifter.
+<img width="785" height="605" alt="image" src="https://github.com/user-attachments/assets/91c782cf-8466-4e90-9c4f-b0fa33b424f8" />
+
 <img width="1600" height="1200" alt="b3a076d8-e08a-409b-866c-1cdc1780ae19" src="https://github.com/user-attachments/assets/9f72f51a-dd46-4a53-8194-f6ab836d35be" />
 # How to build
 ## Wiring
